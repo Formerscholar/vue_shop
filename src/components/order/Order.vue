@@ -35,7 +35,7 @@
           </template>
         </el-table-column>
         <el-table-column label="操作">
-          <template slot-scope="scope">
+          <template>
             <el-button
               size="mini"
               type="primary"
@@ -85,7 +85,7 @@
       :visible.sync="progressVisible"
       width="50%">
       <!--时间线-->
-      <el-timeline >
+      <el-timeline>
         <el-timeline-item
           v-for="(activity, index) in progressInfo"
           :key="index"

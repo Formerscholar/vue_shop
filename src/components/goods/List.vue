@@ -1,4 +1,4 @@
-<script src="../../main.js"></script>
+<script src="../../main-dev.js"></script>
 <template>
   <div>
     <!--    面包屑导航-->
